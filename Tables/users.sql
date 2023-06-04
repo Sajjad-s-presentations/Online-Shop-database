@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Table structure for table `users`
 --
 
-CREATE TABLE `user` (
+CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `username` varchar(20) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE `user` (
 --
 
 --
--- Indexes for table `user`
+-- Indexes for table `users`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
@@ -51,9 +51,9 @@ ALTER TABLE `user`
 --
 
 --
--- AUTO_INCREMENT for table `user`
+-- AUTO_INCREMENT for table `users`
 --
-ALTER TABLE `user`
+ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
